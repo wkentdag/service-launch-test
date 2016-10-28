@@ -25,3 +25,4 @@ This is just a simple script that launches an arbitrary `.exe` file via `execa` 
   * running `execa('exit 3')` or other error-producing commands logs the expected error output to the console or the service error log
   * running `execa('absolute\path\to\launch.bat')` works with `node app.js` and runs inside the service but will not launch the app
   * launching the app asynchronously with `start`: works with `node app.js`, runs inside the service, doesn't launch the app
+  * swapping out child_process for execa has same results
