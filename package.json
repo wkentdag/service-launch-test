@@ -1,0 +1,16 @@
+{
+  "name": "service-launch-test",
+  "version": "0.0.1",
+  "description": "test repo for launching an app from windows service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "execa": "^0.5.0",
+    "node-windows": "^0.1.11",
+    "path": "^0.12.7"
+  }
+}
